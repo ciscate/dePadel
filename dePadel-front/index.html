@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./assets/logopadelblanco-removebg-preview.png" type="image/x-icon"
+    />
+    <title>De Padel</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <img class="logo" src="./assets/logopadelblanco-removebg-preview.png" alt="Logo" />
+      <a class="navbar-brand" href="#">De Padel</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon">Menu</span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobreNosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="torneos.html">Torneos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ranking.html">Ranking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="beneficios.html">Beneficios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#container-contacto-link" onclick="scrollToSection(event)">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="perfil.html">Perfil</a>
+          </li>
+          <li class="boton-sesion-container">
+            <a href="iniciarSesion.html" class="boton-sesion">Login</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="banner-principal">
+      <div class="container-principal">
+        <h1>De Padel</h1>
+        <p>Torneos y beneficios en tu zona</p>
+        <div class="social-container">
+          <ul class="social-list">
+            <li>
+              <a href=""><img src="./assets/facebook.png" alt="facebook" /></a>
+            </li>
+            <li>
+              <a href=""><img src="./assets/gorjeo.png" alt="twitter" /></a>
+            </li>
+            <li>
+              <a href=""><img src="./assets/youtube.png" alt="youtube" /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./assets/instagram3.png" alt="instagram"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="botones-tyr">
+        <a href="torneos.html" class="boton-torneo">Torneos</a>
+        <a href="ranking.html" class="boton-ranking">Ranking</a>
+      </div>
+    </div>
+
+    <div class="sobre-nosotros-container">
+      <img src="./assets/monitorear-ensenanza-clase-padel.jpg" alt="foto-clases" />
+      <div class="sobre-nosotros-leyenda">
+        <div>
+          <h2>Somos De Padel</h2>
+          <h6>Agrupacion de jugadores de Padel</h6>
+          <p>
+            Somos un equipo de trabajo que esta enfocado en generar promocion
+            del Padel a traves de torneos y otorgar beneficios a todos los
+            jugadores de la zona oeste
+          </p>
+          <a href="">Leer mas</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="sobre-depadel">
+      <div class="fondo"></div>
+      <div class="contenido">
+        <h2>Conoce De Padel</h2>
+        <h6>
+          Comenza a participar de los torneos y disfruta de los beneficios
+        </h6>
+        <p>
+          Buscamos unificar las categorias amateurs a traves de la puntuacion en
+          participacion en torneos. Ademas fomentamos la asociacion de jugadores
+          a los clubes creando pertenencia y que adquieran mejores beneficios y
+          promociones
+        </p>
+        <a href="sobreNosotros.html">Leer mas</a>
+      </div>
+    </div>
+
+    <div class="seccion-beneficios">
+      <div>
+        <h4>Beneficios</h4>
+      </div>
+      <div class="cards-beneficio">
+        <div class="card-beneficio">
+          <img src="./assets/beneficio1.jpg" alt="beneficio" />
+          <h6>Clases</h6>
+          <p>
+            Aprovecha tu suscripcion y ahorra en tus clases particulares o
+            grupales
+          </p>
+          <a class="boton-beneficio-lateral" href="beneficios.html">Leer mas</a>
+        </div>
+        <div class="card-beneficio card-beneficio-centro">
+          <img src="./assets/beneficio2.webp" alt="imagen" />
+          <h6>Torneos</h6>
+          <p>
+            Disfruta de descuentos en nuestros torneos y suma
+            puntos para el ranking
+          </p>
+          <a class="boton-beneficio-centro" href="torneos.html">Leer mas</a>
+        </div>
+        <div class="card-beneficio">
+          <img src="./assets/beneficio3.jpg" alt="imagen" />
+          <h6>Productos</h6>
+          <p>
+            Se parte de nuestra red y equipate con las mejores marcas a un
+            precio mas bajo
+          </p>
+          <a class="boton-beneficio-lateral" href="beneficios.html">Leer mas</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="afiliados-sponsors-container">
+      <div class="afiliados-container">
+        <h2>Clubes Afiliados</h2>
+        <div class="afiliados-logos">
+          <img src="./assets/donatiPadel.png" alt="logo" />
+          <img src="./assets/elPredioPadel.png" alt="logo" />
+          <img src="./assets/laPlazoletaPadel.jpg" alt="logo" />
+          <img src="./assets/leclubPadel.jpg" alt="logo" />
+          <img src="./assets/logotiger.jpg" alt="logo" />
+          <img src="./assets/logoredfit.jpg" alt="logo" />
+          <img src="./assets/zapiolapadel.jpg" alt="logo" />
+        </div>
+      </div>
+      <div class="hr-container">
+        <hr />
+      </div>
+      <div class="sponsors-container">
+        <h2>Nuestros Sponsors</h2>
+        <div class="afiliados-logos">
+          <img src="./assets/logoredfit.jpg" alt="logo" />
+          <img src="./assets/logotyp-removebg-preview.png" alt="logo" />
+          <img src="./assets/logoyuka-removebg-preview.png" alt="logo" />
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="torneo-container">
+      <div class="pizarra-container">
+        <div class="flyers-container">
+          <img src="./assets/torneollaves.png" alt="torneo" />
+        </div>
+        <div class="ranking-container">
+          <img src="./assets/ganador.png" alt="ranking" />
+        </div>
+      </div>
+      <div class="torneo-descripcion">
+        <h2>Ranking y Torneos</h2>
+        <p>
+          Busca el torneo que se adecue a tu gusto e inscribite, aprovecha el
+          descuento que te brinda estar suscripto. Sigue tus estadisticas en
+          cada actualizacion del ranking
+        </p>
+        <div class="botones-torneo">
+          <a class="boton-torneo-torneo" href="torneos.html">Ver Torneos</a>
+          <a class="boton-ranking-torneo" href="ranking.html">Ver Ranking</a>
+        </div>
+      </div>
+    </div>
+    <div class="seccion-whatsapp">
+      <div class="seccion-whatsapp-contenido">
+        <h2>De Padel Movil</h2>
+        <p>
+          Contactate con nosotros a traves de whatsapp para una atencion mas
+          personalizada e informal, se parte de nuestra red de contactos y
+          estate atento a nuestras actualizaciones en nuestras redes sociales
+        </p>
+        <img src="./assets/whatsapp.png" alt="logo">
+        <a href="https://api.whatsapp.com/send?phone=+541126519455&text=Hola%20¿cómo%20estás?">Enviar Mensaje</a>
+      </div>
+    </div>
+    <div>
+      <div class="seccion-container-contacto" id="container-contacto-link">
+        <div class="seccion-contacto">
+          <h2>Contacto</h2>
+          <p>Solicita la info que quieras dejandonos un mensaje y a la brevedad alguien del Staff se comunicara contigo  </p>
+          <p>Email: info@misitio.com </p>
+          <p>Tel: 11-11111111 </p>
+          <div class="social-container">
+            <ul class="social-list-contacto">
+              <li>
+                <a href=""><img src="./assets/facebook2.png" alt="facebook" /></a>
+              </li>
+              <li>
+                <a href=""><img src="./assets/gorjeo2.png" alt="twitter" /></a>
+              </li>
+              <li>
+                <a href=""><img src="./assets/youtube2.png" alt="youtube" /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="./assets/instagram2.png" alt="instagram"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div >
+        <form class="seccion-contacto-form" id="form">
+          <div class="form-group">
+            <input type="text" class="form-control" id="from_name" placeholder="Nombre" name="from_name" pattern="^[a-zA-ZÀ-ÿ]{4,20}$" required>
+            <input type="text" class="form-control" id="from_lastname" placeholder="Apellido" name="from_lastname" pattern="^[a-zA-ZÀ-ÿ]{4,20}$" required>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" id="email" placeholder="Email" name="email" pattern="^[a-zA-Z0-9_.-]{4,255}@([a-zA-Z0-9-]+\.)+com$" required>
+            <input type="text" class="form-control" id="asunto" placeholder="Asunto" name="asunto" pattern="^[a-zA-ZÀ-ÿ]{4,20}$" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" id="mensaje" rows="5" placeholder="Escribe tu mensaje aqui" name="message" pattern="^.{1,200}$" required></textarea>
+          </div>
+          <div class="boton-seccion-contacto">
+            <button id="button">Enviar</button>
+          </div>
+        </form>
+      </div>
+
+    <footer>
+      <div class="footer-seccion">
+        <div>
+          <p>&#169 Creado por Francisco Gonzalez </p>
+        </div>
+        <div class="footer-seccion-imagenes">
+          <img src="./assets/navegador.png" alt="logo">
+          <img src="./assets/instagram.png" alt="logo">
+          <img src="./assets/github.png" alt="logo">
+          <img src="./assets/linkedin.png" alt="logo">
+        </div>
+      </div>
+    </footer>
+
+    
+    <script src="./js/scrollToSectionContact.js"></script>
+    <script src="./js/enviarMensajeAlMail.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">emailjs.init('WZ-ZWhLzuxxe9zpQk')</script>
+  </body>
+</html>

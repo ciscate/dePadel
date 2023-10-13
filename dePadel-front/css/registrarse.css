@@ -1,0 +1,54 @@
+.input-password{
+    margin-top: 20px;
+    width: 300px;
+    border-style: none;
+    border-bottom: 2px solid #0654ae;
+    height: 40px;
+    margin-bottom: 25px;
+    margin-right: 15px;
+}
+
+.input-email{
+    margin-top: 20px;
+    width: 300px;
+    border-style: none;
+    border-bottom: 2px solid #0654ae;
+    height: 40px;
+    margin-bottom: 25px;
+    margin-right: 15px;
+}
+
+.input-img{
+    width: 300px;
+    margin-left: -15px;
+    border-style: none;
+}
+
+.container-inputs{
+    margin: auto;
+    margin-left: 32%;
+}
+
+@media screen and (min-width: 780px) and (max-width: 1023px){
+
+    .container-inputs{
+        margin: auto;
+        margin-left: 25%;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 779px){
+
+    .container-inputs{
+        margin: auto;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (min-width: 280px) and (max-width: 479px){
+
+    .container-inputs{
+        margin: auto;
+        margin-left: 0%;
+    }
+}

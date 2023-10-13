@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/iniciarSesion.css">
+    <link rel="stylesheet" href="./css/perfil.css">
+    <link rel="stylesheet" href="./css/ranking.css">
+    <link rel="stylesheet" href="./css/admin.css">
+    <link rel="shortcut icon" href="./assets/logopadelblanco-removebg-preview.png" type="image/x-icon" />
+    <title>De Padel</title>
+</head>
+<body>
+    <div class="logo-inicio-sesion">
+        <a href="index.html"><img src="./assets/logopadelblanco-removebg-preview.png" alt="logo"></a>
+        <a href="index.html"><p>De Padel</p></a>
+    </div>
+    <div class="container-general">
+        <div class="links-container">
+            <a href="#"><p>Mi perfil</p></a>
+            <a href=""><p>Crear Torneo</p></a>
+            <a href="beneficios.html"><p>Crear Sponsor </p></a>
+            <a href="editarPerfil.html"><p>Editar perfil</p></a>
+            <a href="#" onclick="cerrarSesion()"><p>Cerrar Sesion</p></a>
+            
+        </div>
+        <div id="containerPerfil">
+
+        </div>
+    </div>
+
+    
+
+    <div class=" container container-tabla-filtros">
+        <div class="container container-filtro-buscar">
+          <button class = 'btn btn-primary btn-sm' onclick="traerJugadorPorId(id)">Buscar por DNI:</button>
+          <input type="number"  id="inputIdEncontrado" class="input-busqueda">
+          
+        </div>
+    </div>
+    <div class="container">
+        <table class="table" id="usuarios">
+          <thead class="thead">
+            <tr>
+              <th>Foto</th>
+              <th>Jugador</th>
+              <th>Posicion</th>
+              <th>Puntaje</th>
+              <th>Info</th>
+            </tr>
+          </thead>
+          <tbody id="jugadorEncontrado">
+            
+          </tbody>
+        </table>
+       
+      </div>
+
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            
+            <div class="modal-body" id="modalBody">
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            
+            <div class="modal-body" id="modalBodyEditar">
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="ventanaModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" >
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 id="tituloVentana">Realice los cambios necesarios</h5>
+                </div>
+                <div class="modal-body">
+                    
+                        <div class="alert alert-primary">
+<div class="container container-edicion">
+  <input class="inputsModal" placeholder="Puntos de ranking"  id="puntosRankingJugador" type="number" required>
+  <button  class="btn btn-primary btn-sm boton-edicion" id="botonEditarPuntosRanking" >
+    Editar
+  </button>
+</div>
+
+<div class="container container-edicion">
+  <input class="inputsModal" placeholder="Torneos ganados" id="torneosGanadosJugador" type="number" required>
+  <button  class="btn btn-primary btn-sm boton-edicion" id="botonEditarTorneosGanados" >
+    Editar
+  </button>
+</div>
+
+<div class="container container-edicion">
+  <input class="inputsModal" placeholder="Monedas de oro" id="monedasDeOroJugador" type="number" required>
+  <button  class="btn btn-primary btn-sm boton-edicion" id="botonEditarMonedasOro" >
+    Editar
+  </button>
+</div>
+
+<div class="container container-edicion">
+  <input class="inputsModal" placeholder="Elo ranking" id="eloRankingJugador" type="number" required>
+  <button  class="btn btn-primary btn-sm boton-edicion" id="botonEditarEloRanking" >
+    Editar
+  </button>
+</div>
+
+<div class="container container-edicion">
+  <select name="categoria" id="categoriaJugador" required>
+    <option value="" selected>Categorias</option>
+    <option value="8">8va</option>
+    <option value="7">7ma</option>
+    <option value="6">6ta</option>
+    <option value="5">5ta</option>
+    <option value="4">4ta</option>
+    <option value="3">3ra</option>
+</select>
+<button  class="btn btn-primary btn-sm boton-edicion" id="botonEditarCategoria" >
+  Editar
+</button>
+</div>
+           
+                        </div>
+                    
+                </div>
+                <div class="modal-footer">
+                    <form>
+                        <button class="btn btn-danger" type="button" data-dismiss="modal">
+                                Cerrar
+                        </button>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>  
+    </div>  
+
+        
+
+    
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./js/admin.js"></script>
+    <script src="./js/editar.js"></script>
+</body>
+</html>

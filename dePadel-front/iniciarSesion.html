@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/iniciarSesion.css">
+    <link rel="shortcut icon" href="./assets/logopadelblanco-removebg-preview.png" type="image/x-icon" />
+    <title>De Padel</title>
+</head>
+<body>
+    <div class="logo-inicio-sesion">
+        <a href="index.html"><img src="./assets/logopadelblanco-removebg-preview.png" alt="logo"></a>
+        <a href="index.html"><p>De Padel</p></a>
+    </div>
+    
+    <form class="container-login">
+        <div>
+            <h4>Iniciar sesion</h4>
+            <p>No tienes una cuenta? <a href="registrarse.html">Registrate</a></p>
+        </div>
+        <div class="container-inputs">
+            <div>
+                <input class="input-email form-control" id="emailJugador" type="email" placeholder="Email" required >
+                <input class="input-email form-control" id="passwordJugador" type="password" placeholder="Password" required >
+
+                <div class="submit-container">
+                    <button onclick="login();  preventDef(event)">Iniciar sesion</button>
+                </div>
+            </div>
+            <div>
+                <img src="./assets/arreglo-paleta-pelotas-tenis-alto-angulo.jpg" alt="imagen">
+            </div>
+        </div>
+    </form>
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+</html>
+

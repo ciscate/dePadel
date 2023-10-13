@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/perfil.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/sobreNosotros.css">
+    <link rel="stylesheet" href="./css/ranking.css">
+    
+    <link rel="shortcut icon" href="./assets/logopadelblanco-removebg-preview.png" type="image/x-icon" />
+    <title>De Padel</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <img class="logo" src="./assets/logopadelblanco-removebg-preview.png" alt="Logo" />
+        <a class="navbar-brand" href="index.html">De Padel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">Menu</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobreNosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="torneos.html">Torneos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Ranking</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="beneficios.html">Beneficios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#container-contacto-link" onclick="scrollToSection(event)">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="perfil.html" >Perfil</a>
+                </li>
+                <li class="boton-sesion-container">
+                    <a href="iniciarSesion.html" class="boton-sesion">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="banner-sobrenosotros">
+        <h2>Ranking</h2>
+    </div>
+
+    <div class=" container container-tabla-filtros">
+      <div class="container container-filtro-buscar">
+        <button class = 'btn btn-primary btn-sm' onclick="traerJugadorPorId(id)">Buscar por DNI:</button>
+        <input type="number"  id="inputIdEncontrado">
+        <button class = 'btn btn-primary btn-sm' onclick="limpiarCampo()">Reiniciar busqueda</button>
+      </div>
+    </div>
+    <div class="container">
+      <table class="table" id="usuarios">
+        <thead class="thead">
+          <tr>
+            <th>Foto</th>
+            <th>Jugador</th>
+            <th>Posicion</th>
+            <th>Puntaje</th>
+            <th>Info</th>
+          </tr>
+        </thead>
+        <tbody id="jugadorEncontrado">
+          
+        </tbody>
+      </table>
+     
+    </div>
+
+
+    <h2  class="titulocategoria">8va Caballeros</h2>
+      
+      <div class="container">
+        <table class="table" >
+          <thead class="thead">
+            <tr>
+              <th>Puesto</th>
+              <th>Foto</th>
+              <th>Jugador</th>
+              <th>Posicion</th>
+              <th>Puntaje</th>
+              <th>Info</th>
+            </tr>
+          </thead>
+          <tbody id="listaJugadores8">
+            
+          </tbody>
+        </table>
+      </div>
+
+      <h2  class="titulocategoria">8va Damas</h2>
+      
+      <div class="container">
+        <table class="table" >
+          <thead class="thead">
+            <tr>
+              <th>Puesto</th>
+              <th>Foto</th>
+              <th>Jugador</th>
+              <th>Posicion</th>
+              <th>Puntaje</th>
+              <th>Info</th>
+            </tr>
+          </thead>
+          <tbody id="listaJugadoresDamas8">
+            
+          </tbody>
+        </table>
+      </div>
+
+    <h2  class="titulocategoria">7ma Caballeros</h2>
+      
+    <div class="container">
+      <table class="table" >
+        <thead class="thead">
+          <tr>
+            <th>Puesto</th>
+            <th>Foto</th>
+            <th>Jugador</th>
+            <th>Posicion</th>
+            <th>Puntaje</th>
+            <th>Info</th>
+          </tr>
+        </thead>
+        <tbody id="listaJugadores7">
+          
+        </tbody>
+      </table>
+    </div>
+
+    <h2  class="titulocategoria">7ma Damas</h2>
+      
+    <div class="container">
+      <table class="table" >
+        <thead class="thead">
+          <tr>
+            <th>Puesto</th>
+            <th>Foto</th>
+            <th>Jugador</th>
+            <th>Posicion</th>
+            <th>Puntaje</th>
+            <th>Info</th>
+          </tr>
+        </thead>
+        <tbody id="listaJugadoresDamas7">
+          
+        </tbody>
+      </table>
+    </div>
+      
+      <h2  class="titulocategoria">6ta Caballeros</h2>
+      
+      <div class="container">
+        <table class="table" >
+          <thead class="thead">
+            <tr>
+              <th>Puesto</th>
+              <th>Foto</th>
+              <th>Jugador</th>
+              <th>Posicion</th>
+              <th>Puntaje</th>
+              <th>Info</th>
+            </tr>
+          </thead>
+          <tbody id="listaJugadores6">
+            
+          </tbody>
+        </table>
+      </div>
+
+      <h2  class="titulocategoria">6ta Damas</h2>
+      
+      <div class="container">
+        <table class="table" >
+          <thead class="thead">
+            <tr>
+              <th>Puesto</th>
+              <th>Foto</th>
+              <th>Jugador</th>
+              <th>Posicion</th>
+              <th>Puntaje</th>
+              <th>Info</th>
+            </tr>
+          </thead>
+          <tbody id="listaJugadoresDamas6">
+            
+          </tbody>
+        </table>
+      </div>
+
+      <h2  class="titulocategoria">5ta Caballeros</h2>
+      
+      <div class="container">
+        <table class="table" >
+          <thead class="thead">
+            <tr>
+              <th>Puesto</th>
+              <th>Foto</th>
+              <th>Jugador</th>
+              <th>Posicion</th>
+              <th>Puntaje</th>
+              <th>Info</th>
+            </tr>
+          </thead>
+          <tbody id="listaJugadores5">
+            
+          </tbody>
+        </table>
+      </div>
+
+      <h2  class="titulocategoria">5ta Damas</h2>
+      
+      <div class="container">
+        <table class="table" >
+          <thead class="thead">
+            <tr>
+              <th>Puesto</th>
+              <th>Foto</th>
+              <th>Jugador</th>
+              <th>Posicion</th>
+              <th>Puntaje</th>
+              <th>Info</th>
+            </tr>
+          </thead>
+          <tbody id="listaJugadoresDamas5">
+            
+          </tbody>
+        </table>
+      </div>
+
+
+      <h2  class="titulocategoria">4ta Caballeros</h2>
+      
+      <div class="container">
+        <table class="table" >
+          <thead class="thead">
+            <tr>
+              <th>Puesto</th>
+              <th>Foto</th>
+              <th>Jugador</th>
+              <th>Posicion</th>
+              <th>Puntaje</th>
+              <th>Info</th>
+            </tr>
+          </thead>
+          <tbody id="listaJugadores4">
+            
+          </tbody>
+        </table>
+      </div>
+
+      <h2  class="titulocategoria">4ta Damas</h2>
+      
+      <div class="container">
+        <table class="table" >
+          <thead class="thead">
+            <tr>
+              <th>Puesto</th>
+              <th>Foto</th>
+              <th>Jugador</th>
+              <th>Posicion</th>
+              <th>Puntaje</th>
+              <th>Info</th>
+            </tr>
+          </thead>
+          <tbody id="listaJugadoresDamas4">
+            
+          </tbody>
+        </table>
+      </div>
+
+      
+      <h2  class="titulocategoria">3ra Caballeros</h2>
+      
+      <div class="container">
+        <table class="table" >
+          <thead class="thead">
+            <tr>
+              <th>Puesto</th>
+              <th>Foto</th>
+              <th>Jugador</th>
+              <th>Posicion</th>
+              <th>Puntaje</th>
+              <th>Info</th>
+            </tr>
+          </thead>
+          <tbody id="listaJugadores3">
+            
+          </tbody>
+        </table>
+      </div>
+
+      <h2  class="titulocategoria">3ra Damas</h2>
+      
+      <div class="container">
+        <table class="table" >
+          <thead class="thead">
+            <tr>
+              <th>Puesto</th>
+              <th>Foto</th>
+              <th>Jugador</th>
+              <th>Posicion</th>
+              <th>Puntaje</th>
+              <th>Info</th>
+            </tr>
+          </thead>
+          <tbody id="listaJugadoresDamas3">
+            
+          </tbody>
+        </table>
+      </div>
+    
+     
+
+
+     
+
+      
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      
+      <div class="modal-body" id="modalBody">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="limpiarCampo()">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+    
+   
+    
+
+    <div class="seccion-container-contacto" id="container-contacto-link">
+        <div class="seccion-contacto">
+          <h2>Contacto</h2>
+          <p>Solicita la info que quieras dejandonos un mensaje y a la brevedad alguien del Staff se comunicara contigo  </p>
+          <p>Email: info@misitio.com </p>
+          <p>Tel: 11-11111111 </p>
+          <div class="social-container">
+            <ul class="social-list-contacto">
+              <li>
+                <a href=""><img src="./assets/facebook2.png" alt="facebook" /></a>
+              </li>
+              <li>
+                <a href=""><img src="./assets/gorjeo2.png" alt="twitter" /></a>
+              </li>
+              <li>
+                <a href=""><img src="./assets/youtube2.png" alt="youtube" /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="./assets/instagram2.png" alt="instagram"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div >
+        <form class="seccion-contacto-form" id="form">
+          <div class="form-group">
+            <input type="text" class="form-control" id="from_name" placeholder="Nombre" name="from_name" pattern="^[a-zA-ZÀ-ÿ]{4,20}$" required>
+            <input type="text" class="form-control" id="from_lastname" placeholder="Apellido" name="from_lastname" pattern="^[a-zA-ZÀ-ÿ]{4,20}$" required>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" id="email" placeholder="Email" name="email" pattern="^[a-zA-Z0-9_.-]{4,255}@([a-zA-Z0-9-]+\.)+com$" required>
+            <input type="text" class="form-control" id="asunto" placeholder="Asunto" name="asunto" pattern="^[a-zA-ZÀ-ÿ]{4,20}$" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" id="mensaje" rows="5" placeholder="Escribe tu mensaje aqui" name="message" pattern="^.{1,200}$" required></textarea>
+          </div>
+          
+
+          <div class="boton-seccion-contacto">
+            <button id="button">Enviar</button>
+          </div>
+        </form>
+      </div>
+      <footer>
+        <div class="footer-seccion">
+          <div>
+            <p>&#169 Creado por Francisco Gonzalez </p>
+          </div>
+          <div class="footer-seccion-imagenes">
+            <img src="./assets/navegador.png" alt="logo">
+            <img src="./assets/instagram.png" alt="logo">
+            <img src="./assets/github.png" alt="logo">
+            <img src="./assets/linkedin.png" alt="logo">
+          </div>
+        </div>
+        
+      </footer>
+
+    <script src="./js/scrollToSectionContact.js"></script>
+    <script src="./js/enviarMensajeAlMail.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./js/ranking.js"></script>
+</body>
+
+</html>

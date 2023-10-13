@@ -1,0 +1,14 @@
+.input-img{
+    width: 300px;
+    margin-left: -15px;
+    border-style: none;
+}
+
+.container-inputs{
+    margin: auto;
+}
+
+label{
+    margin-right: 50%;
+}
+

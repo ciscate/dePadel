@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/sobreNosotros.css">
+  <link rel="shortcut icon" href="/assets/logopadelblanco-removebg-preview.png" type="image/x-icon" />
+  <title>De Padel</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <img class="logo" src="./assets/logopadelblanco-removebg-preview.png" alt="Logo" />
+    <a class="navbar-brand" href="index.html">De Padel</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">Menu</span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="torneos.html">Torneos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ranking.html">Ranking</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="beneficios.html">Beneficios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#container-contacto-link" onclick="scrollToSection(event)">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="perfil.html">Perfil</a>
+        </li>
+        <li class="boton-sesion-container">
+          <a href="iniciarSesion.html" class="boton-sesion">Login</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="banner-sobrenosotros">
+    <h2>Conoce De Padel</h2>
+  </div>
+  <div class="sobre-nosotros-seccion">
+    <div class="sobre-nosotros-seccion-1">
+      <h5>Quienes somos</h5>
+      <p>Somos un equipo de trabajo que centraliza la organización de Torneos de Padel.
+        Además categoriza Jugadores en la zona Oeste (por el momento) del GBA. Intentamos promocionar el deporte y
+        otorgarle beneficios a los jugadores de Padel a través un programa al cual se pueden adherir a través
+        de la REDdePADEL.</p>
+      <div class="sobre-nosotros-seccion-a">
+        <a href="https://api.whatsapp.com/send?phone=+541126519455&text=Hola%20¿cómo%20estás?">Contactanos</a>
+      </div>
+    </div>
+    <div class="sobre-nosotros-seccion-2">
+    </div>
+    <div class="sobre-nosotros-seccion-3">
+      <h5>Nuestra vision</h5>
+      <p>Comenzar a participar de los torneos y disfruta de los beneficios
+        La Red de Padel está destinada a todos aquellos jugadores que les gusta competir en torneos y participar de las
+        distintas actividades relacionadas a este hermoso deporte.
+        Los jugadores asociados podrán disfrutar de beneficios como descuentos en tiendas deportivas, descuentos en
+        inscripciones a torneos, y en algunos torneos hidratación, participarán de sorteos de artículos de padel,
+        participación en torneos exclusivos para asociados.
+      </p>
+    </div>
+  </div>
+  <div class="img-sobre-nosotros">
+    <img src="./assets/arreglo-paleta-pelotas-tenis-alto-angulo.jpg" alt="">
+  </div>
+  <div class="seccion-container-contacto" id="container-contacto-link">
+    <div class="seccion-contacto">
+      <h2>Contacto</h2>
+      <p>Solicita la info que quieras dejandonos un mensaje y a la brevedad alguien del Staff se comunicara contigo </p>
+      <p>Email: info@misitio.com </p>
+      <p>Tel: 11-11111111 </p>
+      <div class="social-container">
+        <ul class="social-list-contacto">
+          <li>
+            <a href=""><img src="./assets/facebook2.png" alt="facebook" /></a>
+          </li>
+          <li>
+            <a href=""><img src="./assets/gorjeo2.png" alt="twitter" /></a>
+          </li>
+          <li>
+            <a href=""><img src="./assets/youtube2.png" alt="youtube" /></a>
+          </li>
+          <li>
+            <a href=""><img src="./assets/instagram2.png" alt="instagram" /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <form class="seccion-contacto-form" id="form">
+      <div class="form-group">
+        <input type="text" class="form-control" id="from_name" placeholder="Nombre" name="from_name" pattern="^[a-zA-ZÀ-ÿ]{4,20}$" required>
+        <input type="text" class="form-control" id="from_lastname" placeholder="Apellido" name="from_lastname" pattern="^[a-zA-ZÀ-ÿ]{4,20}$" required>
+      </div>
+      <div class="form-group">
+        <input type="email" class="form-control" id="email" placeholder="Email" name="email" pattern="^[a-zA-Z0-9_.-]{4,255}@([a-zA-Z0-9-]+\.)+com$" required>
+        <input type="text" class="form-control" id="asunto" placeholder="Asunto" name="asunto" pattern="^[a-zA-ZÀ-ÿ]{4,20}$" required>
+      </div>
+      <div class="form-group">
+        <textarea class="form-control" id="mensaje" rows="5" placeholder="Escribe tu mensaje aqui" name="message" pattern="^.{1,200}$" required></textarea>
+      </div>
+      <div class="boton-seccion-contacto">
+        <button id="button">Enviar</button>
+      </div>
+    </form>
+  </div>
+  <footer>
+    <div class="footer-seccion">
+      <div>
+        <p>&#169 Creado por Francisco Gonzalez </p>
+      </div>
+      <div class="footer-seccion-imagenes">
+        <img src="./assets/navegador.png" alt="logo">
+        <img src="./assets/instagram.png" alt="logo">
+        <img src="./assets/github.png" alt="logo">
+        <img src="./assets/linkedin.png" alt="logo">
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="./js/scrollToSectionContact.js"></script>
+  <script src="./js/enviarMensajeAlMail.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

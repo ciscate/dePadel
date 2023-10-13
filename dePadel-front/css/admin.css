@@ -1,0 +1,56 @@
+
+.container-filtro-buscar {
+    margin-top: -80px;
+}
+
+.container-filtro-buscar input {
+    margin-top: 50px;
+}
+
+.container-perfil{
+    margin-bottom: 0px;
+}
+
+.links-container{
+    margin-right: 30%;
+}
+
+.btn-success{
+    margin-top: 0px;
+    color: white
+}
+
+.btn-warning{
+    margin-top: 0px;
+    margin-right: 10px;
+    color: black;
+}
+
+.table{
+    margin-bottom: 100px;
+}
+
+.inputsModal{
+    margin: auto;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+select{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    display: block;
+}
+
+.container-edicion{
+    display: flex;
+}
+
+.boton-edicion{
+    margin-bottom: 10px;
+    margin-left: -15px;
+    padding-top: 2px;
+}

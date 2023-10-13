@@ -1,0 +1,323 @@
+.perfil-container{
+    text-align: center;
+    width: 100%;
+    margin-left: 50%;
+    height: 800px;
+    
+}
+
+.img-container{
+    margin-bottom: 50px;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+h2{
+    color: black;
+    margin: 10px auto;
+}
+
+.container-categoria-posicion{
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-ranking-puntos{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-puntos-oro{
+    display: flex;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.container-puntos-oro img{
+    width:35px ;
+    height:35px;
+    border-radius: 0%;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.container-suscripcion h2{
+    color: #29A71A;
+    margin-bottom: 50px;
+}
+
+.boton-editar{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #0654ae;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 50px;
+
+}
+
+.container-medallas{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.container-medallas img{
+    width: 50px;
+    height: 50px;
+}
+
+.container-general{
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
+
+.links-container{
+    height: 400px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.links-container a{
+    color: #0654ae;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.links-container p{
+    margin-bottom: 30px;
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 779px){
+
+    .perfil-container{
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        height: 800px;
+    }
+    
+    .img-container{
+        margin-bottom: 50px;
+    }
+    
+    img{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+    
+    h2{
+        color: black;
+        margin: 10px auto;
+        font-size: 20px;
+    }
+    
+    .container-categoria-posicion{
+        margin: auto;
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    
+    .container-ranking-puntos{
+        margin: auto;
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .container-puntos-oro{
+        display: flex;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+    }
+    
+    .container-puntos-oro img{
+        width:35px ;
+        height:35px;
+        border-radius: 0%;
+        margin-bottom: 15px;
+        margin-left: 10px;
+    }
+    
+    .container-suscripcion h2{
+        color: #29A71A;
+        margin-bottom: 50px;
+    }
+    
+    .boton-editar{
+        font-size: 16px;
+        font-weight: bold;
+        background-color: #0654ae;
+        color: white;
+        padding: 20px 40px;
+        border-radius: 50px;
+    
+    }
+    
+    .container-medallas{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .container-medallas img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .container-general{
+        display: flex;
+        width: 85%;
+        margin: auto;
+    }
+    
+    .links-container{
+        height: 300px;
+        margin-right: 30px;
+        margin-top: 10px;
+    }
+    
+    .links-container a{
+        color: #0654ae;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .links-container p{
+        margin-bottom: 30px;
+    
+    }
+}
+
+
+
+@media screen and (min-width: 280px) and (max-width: 479px){
+
+    .perfil-container{
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        height: 800px;
+    }
+    
+    .img-container{
+        margin-bottom: 50px;
+    }
+    
+    img{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+    
+    h2{
+        color: black;
+        margin: 10px auto;
+        font-size: 14px;
+    }
+    
+    .container-categoria-posicion{
+        margin: auto;
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    
+    .container-ranking-puntos{
+        margin: auto;
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .container-puntos-oro{
+        display: flex;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+ 
+    }
+    
+    .container-puntos-oro img{
+        width:35px ;
+        height:35px;
+        border-radius: 0%;
+        margin-bottom: 15px;
+        margin-left: 10px;
+    }
+    
+    .container-suscripcion h2{
+        color: #29A71A;
+        margin-bottom: 50px;
+    }
+    
+    .boton-editar{
+        font-size: 16px;
+        font-weight: bold;
+        background-color: #0654ae;
+        color: white;
+        padding: 20px 40px;
+        border-radius: 50px;
+    
+    }
+    
+    .container-medallas{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .container-medallas img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .container-general{
+        display: flex;
+        width: 85%;
+        margin: auto;
+    }
+    
+    .links-container{
+        height: 400px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    
+    .links-container a{
+        color: #0654ae;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    .links-container p{
+        margin-bottom: 30px;
+    
+    }
+}
+
+

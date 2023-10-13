@@ -1,0 +1,2284 @@
+
+nav{
+  background-color: black;
+}
+
+span{
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 20px;
+  margin-top: 10px;
+  text-align: center;
+  padding-right: 5px;
+}
+
+
+
+.logo{
+  margin-right: 10px;
+  margin-left: 20px;
+  width:40px;
+  height:40px;
+}
+
+.boton-sesion-container{
+  margin-top: 8px;
+  text-align: center;
+}
+.boton-sesion{
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  background-color: white;
+}
+
+.boton-sesion a{
+  text-decoration: none;
+  color: black;
+}
+.nav-link{
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-brand{
+  color: white;
+  font-weight: bolder;
+}
+
+.banner-principal{
+  background-image: url("https://i.postimg.cc/26YWpfTF/hombre-jugando-padel.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    color:black;
+}
+
+
+
+.banner-principal h1{
+  width: 300px;
+  margin-left: 80px;
+  font-size: 72px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: -40px;
+}
+
+.banner-principal p{
+  margin-left: 85px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.botones-tyr{
+  display: flex;
+  justify-content: center;
+  margin-bottom: -700px;
+  margin-left: 133px;
+}
+
+.botones-tyr a{
+  padding: 30px 90px;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.boton-torneo{
+  background-color:white;
+  color: black;
+}
+
+.boton-ranking{
+  color: white;
+  background-color: black;
+}
+
+.container-principal p{
+  font-weight: bold;
+}
+
+.social-container{
+  margin-left: 50px;
+  width: 240px;
+}
+
+.social-list{
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.social-container li{
+  list-style: none;
+}
+
+.social-container img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.social-container a{
+  background-color: none;
+}
+
+.logo{
+    margin-right: 10px;
+    margin-left: 20px;
+    width:40px;
+    height:40px;
+  }
+
+  .boton-sesion-container{
+    margin-top: 8px;
+    text-align: center;
+  }
+  .boton-sesion{
+    color: black;
+    padding: 5px;
+    background-color:white;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .boton-sesion a{
+    text-decoration: none;
+  }
+
+  .sobre-nosotros-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: 600px;
+    margin-top: 200px;
+  }
+
+  .sobre-nosotros-container img{
+    width: 70%;
+    height: 500px;
+  }
+
+  .sobre-nosotros-leyenda{
+    margin-left: -200px;
+    margin-top: 200px;
+    background-color: white;
+    color: black;
+    padding: 50px;
+    width: 70%;
+  }
+
+  
+  .sobre-nosotros-leyenda h2{
+    font-size: 40px;
+    margin-bottom: 35px;
+    color: black;
+  }
+
+  .sobre-nosotros-leyenda h6{
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: black;
+  }
+
+  .sobre-nosotros-leyenda p{
+    margin-bottom: 70px;
+    text-align: justify;
+    font-size: 18px;
+    color: black;
+  }
+  
+
+  .sobre-nosotros-leyenda a{
+    background-color: black;
+    padding: 20px 50px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .sobre-nosotros-leyenda a:hover{
+    color: #0654ae;
+  }
+
+  .sobre-depadel{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+  }
+  
+  .contenido {
+    background-color: white;
+    width: 50%;
+    margin-top: -400px;
+    margin-left: 5%;
+    height: 500px;
+    padding: 50px;
+
+  }
+  
+  .contenido h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: black;
+  }
+  
+  .contenido h6{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: black;
+  }
+  
+  .contenido p{
+    margin-bottom: 120px;
+    text-align: justify;
+    font-size: 18px;
+    color: black;
+  }
+  
+  
+  .contenido a{
+    background-color: black;
+    padding: 20px 50px;
+    margin-left: 240px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  
+  .contenido a:hover{
+    color: #0654ae  ;
+  }
+  
+  .fondo {
+    background-image: url("https://i.postimg.cc/26qSX9NF/gente-jugando-al-padel-dentro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 70%;
+    margin-left: 30%;
+    height: 600px;
+  }
+
+
+
+.seccion-beneficios{
+  background-color:rgb(232, 232, 232) ;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  height: 850px;
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+
+.seccion-beneficios h4{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 70px;
+}
+
+.cards-beneficio{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.card-beneficio{
+  width: 600px;
+  background-color: white;
+  height:550px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card-beneficio-centro{
+  color: black;
+}
+
+.card-beneficio img{
+  height: 300px;
+  width: 100%;
+}
+
+.card-beneficio h6{
+  font-size: 24px;
+  margin: 20px auto;
+}
+
+.card-beneficio p{
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  text-align: center;
+  padding: 0 10px;
+}
+
+
+.boton-beneficio-lateral{
+  background-color: black;
+  padding: 10px 25px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.boton-beneficio-centro{
+  background-color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border: 1px solid black;
+  color: black;
+  font-weight: bold;
+}
+
+.card-beneficio a:hover{
+  color: #0654ae;
+}
+
+
+  .boton-beneficios{
+    background-color: white;
+  }
+
+
+.afiliados-sponsors-container{
+  display: flex;flex-direction: row;
+  color: black;
+}  
+
+.afiliados-container{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 350px;
+  margin-bottom: 250px;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+hr{
+  margin-top: 220px;
+  height: 450px;
+  border: 1px solid black;
+}
+
+.sponsors-container{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 350px;
+  margin-bottom: 250px;
+  margin-top: 50px;
+  margin-right: 40px;
+}
+
+.sponsors-container h2{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.afiliados-container h2{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.afiliados-logos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.afiliados-logos img{
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.pizarra-container{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pizarra-container img{
+  height: 350px;
+  width: 250px;
+  margin-left: 60px;
+  margin-top: 60px;
+}
+
+.flyers-container{
+  margin-top: 70px;
+  margin-left: 120px;
+  width: 50%;
+  height: 500px;
+}
+.ranking-container{
+  width: 200px;
+}
+
+.ranking-container img{
+  margin-left: 35px;
+  width: 250px;
+  height: 200px;
+  margin-top: 80px;
+}
+
+.torneo-container{
+  display: flex;
+  margin-top: 50px;
+  background-image: url("https://i.postimg.cc/zBRqkLTx/pizarra-texturizada-tizas-borrador.jpg");
+  background-repeat: no-repeat;
+}
+
+.torneo-descripcion{
+  margin-left: -200px;
+  margin-top: 300px;
+  width: 50%;
+  background-color: white;
+  padding: 50px 50px;
+  color: black;
+}
+
+.torneo-descripcion h2{
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.torneo-descripcion p{
+  font-size: 20px;
+  text-align: justify;
+  margin-bottom: 100px;
+}
+
+.botones-torneo{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.boton-torneo-torneo {
+  background-color: black;
+  color: white;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+.boton-ranking-torneo{
+  background-color:white;
+  color: black;
+  padding: 20px 40px;
+  text-decoration: none;
+  border: 1px solid black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.torneo-descripcion a:hover{
+  color: #0654ae;
+}
+
+.seccion-whatsapp{
+  margin-top: 100px;
+  width: 100%;
+  background-image: url("https://i.postimg.cc/FRxD8pbz/mujer-borrosa-tiro-completo-jugando-al-padel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+}
+
+.seccion-whatsapp-contenido{
+  width: 40%;
+  margin-left: 60%;
+  padding-top: 100px;
+}
+
+.seccion-whatsapp-contenido h2{
+  margin-bottom: 30px;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.seccion-whatsapp-contenido p{
+  margin-bottom: 80px;
+  text-align: justify;
+  font-size: 20px;
+  padding: 0 15px;
+  color: white;
+
+
+}
+
+.seccion-whatsapp-contenido img{
+  width: 75px;
+  height: 75px;
+  margin-left: 50px;
+}
+
+.seccion-whatsapp-contenido a{
+  background-color: #29A71A;
+  padding: 20px 40px;
+  text-decoration: none;
+  color: white;
+  margin-left: 40px;
+  font-weight: bold;
+}
+
+.seccion-whatsapp-contenido a:hover{
+  color: #0654ae;
+}
+
+.seccion-container-contacto{
+  display: flex;
+  margin-top: 150px;
+}
+
+.seccion-contacto{
+  background-color: #0654ae;
+  width: 40%;
+  padding-top: 80px;
+  padding-left: 30px;
+  color: white;
+  padding-right: 30px;
+
+}
+
+.seccion-contacto h2{
+  font-size: 60px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.seccion-contacto p{
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.seccion-contacto-form{
+  width: 60%;
+  padding-top: 100px;
+  
+}
+
+.form-group{
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-group input{
+  
+  width:40% ;
+  height: 40px;
+  border-style: none;
+  border-bottom: 2px solid #0654ae;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.form-group textarea{
+  border-style: none;
+  border-bottom:2px solid #0654ae ;
+  height: 100px;
+  width: 90%;
+  font-weight: 500;
+}
+
+.boton-seccion-contacto{
+  text-align: center;
+  margin-top: 30px ;
+}
+
+.seccion-contacto-form button{
+  margin: auto;
+  color: #0654ae;
+  background-color: white;
+  font-weight: bold;
+  border-style: none;
+  padding: 25px 50px;
+  font-size: 20px;
+}
+
+.social-list-contacto{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 250px;
+}
+/*FOOTER*/
+footer{
+  background-color: black;
+  margin-top: 150px;
+  color: white;
+  font-size: 20px;
+  height: 60px;
+}
+
+.footer-seccion{
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-seccion p{
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+.footer-seccion img{
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+
+@media screen and (min-width: 780px) and (max-width: 1023px){
+  
+
+  .navbar-brand{
+    margin-right: 65%;
+  }
+
+  .navbar-nav{
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .boton-sesion-container{
+    margin-bottom: 10px;
+  }
+
+  .boton-sesion-container a{
+    padding: 8px 15px;
+  }
+
+  .banner-principal h1{
+    margin-left: 30px;
+  }
+
+  .banner-principal p{
+    margin-left: 40px;
+  }
+
+  .botones-tyr{
+    width: 10%;
+    height: 100px;
+    display: flex;
+    justify-content: left;
+    margin-bottom: -700px;
+    margin-left: -62px;
+  }
+  
+  .botones-tyr a{
+    margin-right: 0px;
+  }
+  
+  .boton-torneo{
+    background-color:white;
+    color: black;
+  }
+  
+  .boton-ranking{
+    color: white;
+    background-color: black;
+  }
+
+  .sobre-nosotros-leyenda h2{
+    font-size: 30px;
+    margin-bottom: 35px;
+    color: black;
+  }
+
+  .sobre-nosotros-leyenda h6{
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: black;
+  }
+
+  .sobre-nosotros-leyenda p{
+    margin-bottom: 70px;
+    text-align: justify;
+    font-size: 14px;
+    color: black;
+  }
+
+  .contenido h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: black;
+  }
+  
+  .contenido h6{
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: black;
+  }
+  
+  .contenido p{
+    margin-bottom: 80px;
+    text-align: justify;
+    font-size: 14px;
+    color: black;
+  }
+
+  .contenido a{
+    background-color: black;
+    padding: 20px 50px;
+    margin-left: 120px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .card-beneficio h6{
+    font-size: 16px;
+    margin: 20px auto;
+  }
+  
+  .card-beneficio p{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .afiliados-logos{
+    width: 80%;
+  }
+
+  .torneo-descripcion{
+    margin-left: -155px;
+  }
+
+  .flyers-container{
+    margin-left: 40px;
+  }
+
+  .ranking-container img{
+    margin-left: 90px;
+  }
+
+  .torneo-descripcion h2{
+    font-size: 30px;
+  }
+
+  .torneo-descripcion p{
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  .boton-torneo-torneo{
+    padding: 15px 20px;
+  }
+
+  .boton-ranking-torneo{
+    padding: 15px 20px;
+  }
+
+  .seccion-whatsapp-contenido{
+    padding-top: 20px;
+    margin-left: 20px;
+    height: 270px;
+  }
+
+  .seccion-whatsapp-contenido h2{
+    color: white;
+    font-size: 30px;
+    margin-top: 50px;
+
+  }
+
+  .seccion-whatsapp-contenido p{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+  }
+
+  .seccion-whatsapp-contenido img{
+    margin-left: 5px;
+  }
+
+  .seccion-whatsapp-contenido a{
+    margin-left: 10px;
+  }
+
+  .social-container{
+    margin-left: 0px;
+  }
+
+  .footer-seccion{
+    width: 90%;
+    justify-content: space-between;
+  }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1023px){
+  
+  .navbar-brand{
+    margin-right: 10%;
+  }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 779px){
+  
+  .navbar-brand{
+    margin-right: 50%;
+  }
+
+  .navbar-nav{
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .banner-principal h1{
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+
+  .banner-principal p{
+    margin-left: 15px;
+    margin-top: -25px;
+  }
+
+  .social-container{
+    margin-left: -20px;
+    width: 240px;
+  }
+
+  .botones-tyr{
+    margin-bottom: -700px;
+    margin-left: -152px;
+  }
+  
+  .botones-tyr a{
+    padding: 20px 50px;
+    font-size: 16px;
+  }
+  
+  .sobre-nosotros-container{
+    width: 95%;
+    margin-top: 150px;
+  }
+
+  .sobre-nosotros-container img{
+    width: 70%;
+    height: 400px;
+  }
+
+  .sobre-nosotros-leyenda{
+    padding: 40px;
+    width: 80%;
+  }
+
+  .sobre-nosotros-leyenda h2{
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+
+  .sobre-nosotros-leyenda h6{
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .sobre-nosotros-leyenda p{
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+
+  .sobre-nosotros-leyenda a{
+    padding: 10px 30px;
+  }
+
+  .sobre-depadel{
+    margin-top: 50px;
+  }
+  
+  .contenido {
+    width: 60%;
+    margin-top: -350px;
+    margin-left: 0px;
+    height: 500px;
+    padding: 30px;
+  }
+  
+  .contenido h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .contenido h6{
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .contenido p{
+    margin-bottom: 60px;
+    font-size: 14px;
+  }
+  
+  .contenido a{
+    padding: 10px 30px;
+    margin-left: 100px;
+  }
+  
+  .fondo {
+    width: 70%;
+    margin-left:30%;
+    height: 500px;
+  }
+
+  .seccion-beneficios{
+    margin-top: 50px;
+    height: 720px;
+  }
+  
+  .seccion-beneficios h4{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 60px;
+  }
+  
+  .cards-beneficio{
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .card-beneficio{
+    height:500px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .card-beneficio img{
+    height: 250px;
+    width: 100%;
+  }
+  
+  .card-beneficio h6{
+    font-size: 18px;
+    margin: 10px auto;
+  }
+  
+  .card-beneficio p{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 0 10px;
+  }
+  
+  .boton-beneficio-lateral{
+    padding: 5px 18px;
+  }
+  
+  .boton-beneficio-centro{
+    padding: 5px 18px;
+  }
+  
+  .afiliados-sponsors-container{
+    display: flex;
+    flex-direction: row;
+  }  
+  
+  .afiliados-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 550px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  
+  hr{
+    margin-top: 180px;
+    height: 350px;
+    border: 1px solid black;
+  }
+  
+  .sponsors-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 550px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+  
+  .sponsors-container h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+  
+  .afiliados-container h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    margin-left: 20px;
+  }
+  
+  .afiliados-logos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+  }
+  
+  .afiliados-logos img{
+    margin-right: 10px;
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+  }
+
+  .pizarra-container{
+    width: 100%;
+    height:450px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .pizarra-container img{
+    height: 150px;
+    width: 100px;
+    margin-left: -50px;
+    margin-top: 20px;
+  }
+  
+  .flyers-container{
+    margin-top: 70px;
+    margin-left: 120px;
+    width: 50%;
+    height: 500px;
+  }
+  .ranking-container{
+    width: 200px;
+  }
+  
+  .ranking-container img{
+    margin-left: -55px;
+    width: 150px;
+    height: 100px;
+    margin-top: 40px;
+  }
+  
+  .torneo-container{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    background-image: url("https://i.postimg.cc/zBRqkLTx/pizarra-texturizada-tizas-borrador.jpg");
+    background-size: contain;
+  }
+  
+  .torneo-descripcion{
+    margin-left: -264px;
+    margin-top: 150px;
+    width: 50%;
+    background-color: white;
+    padding: 15px 15px;
+    color: black;
+    height:280px;
+  }
+  
+  .torneo-descripcion h2{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .torneo-descripcion p{
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+  
+  .botones-torneo{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+  }
+  
+  .boton-torneo-torneo {
+    background-color: black;
+    color: white;
+    padding: 5px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  .boton-ranking-torneo{
+    background-color:white;
+    color: black;
+    padding: 5px 25px;
+    text-decoration: none;
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .seccion-whatsapp{
+    margin-top: 0px;
+    width: 100%;
+    background-image: url("https://i.postimg.cc/FRxD8pbz/mujer-borrosa-tiro-completo-jugando-al-padel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+    margin-top: 50px;
+  }
+  
+  .seccion-whatsapp-contenido{
+    width: 50%;
+    height: 190px;
+    margin-left: 0%;
+    padding: 1px 5px;
+  }
+  
+  .seccion-whatsapp-contenido h2{
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .seccion-whatsapp-contenido p{
+    margin-bottom: 50px;
+    text-align: justify;
+    font-size: 13px;
+    padding: 0 5px;
+    color: white;
+  }
+  
+  .seccion-whatsapp-contenido img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+  }
+  
+  .seccion-whatsapp-contenido a{
+    background-color: #29A71A;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  
+  .seccion-container-contacto{
+    display: flex;
+    margin-top: 100px;
+  }
+  
+  .seccion-contacto{
+    background-color: #0654ae;
+    width: 40%;
+    padding-top: 40px;
+    padding-left: 20px;
+    color: white;
+    padding-right: 20px;
+  }
+  
+  .seccion-contacto h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .seccion-contacto p{
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: justify;
+  }
+  
+  .seccion-contacto-form{
+    width: 60%;
+    padding-top: 100px;
+  }
+  
+  .form-group{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .form-group input{
+    width:40% ;
+    height: 40px;
+    border-style: none;
+    border-bottom: 2px solid #0654ae;
+    margin-bottom: 30px;
+    font-weight: 500;
+  }
+  
+  .form-group textarea{
+    border-style: none;
+    border-bottom:2px solid #0654ae ;
+    height: 100px;
+    width: 90%;
+    font-weight: 500;
+  }
+  
+  .boton-seccion-contacto{
+    text-align: center;
+    margin-top: 30px ;
+  }
+  
+  .seccion-contacto-form button{
+    margin: auto;
+    color: #0654ae;
+    background-color: white;
+    font-weight: bold;
+    border-style: none;
+    padding: 15px 30px;
+    font-size: 20px;
+  }
+  
+  .social-list-contacto{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 200px;
+    margin-left: -20px;
+  }
+
+
+  footer{
+    background-color: black;
+    margin-top: 100px;
+    color: white;
+    font-size: 16px;
+    height: 50px;
+    width: 100%;
+  }
+
+  .footer-seccion{
+    width: 90%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+  }
+}
+
+
+
+@media screen and (min-width: 375px) and (max-width: 479px){
+
+  .navbar-brand{
+    margin-right: 25%;
+  }
+
+  .navbar-nav{
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .banner-principal{
+    background-image: url("https://i.postimg.cc/26YWpfTF/hombre-jugando-padel.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      text-align: left;
+      color:black;
+  }
+
+  .banner-principal h1{
+    margin-left: 10px;
+    margin-top: 0px;
+  }
+
+  .banner-principal p{
+    margin-left: 15px;
+    margin-top: -25px;
+  }
+
+  .social-container{
+    margin-left: -20px;
+    width: 240px;
+  }
+
+  .botones-tyr{
+    margin-bottom: -500px;
+    margin-left: -161px;
+  }
+  
+  .botones-tyr a{
+    padding: 15px 30px;
+    font-size: 14px;
+  }
+  
+  .sobre-nosotros-container{
+    width: 95%;
+    margin-left: 20px;
+    height: 450px;
+    margin-bottom: 50px;
+
+  }
+
+  .sobre-nosotros-container img{
+    width: 70%;
+    height: 250px;
+  }
+
+  .sobre-nosotros-leyenda{
+    padding: 20px;
+    width: 60%;
+    margin-top: 150px;
+  }
+
+  .sobre-nosotros-leyenda h2{
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+
+  .sobre-nosotros-leyenda h6{
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .sobre-nosotros-leyenda p{
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .sobre-nosotros-leyenda a{
+    padding: 10px 20px;
+  }
+
+  .sobre-depadel{
+    margin-top: 10px;
+  }
+  
+  .contenido {
+    width: 60%;
+    margin-top: -250px;
+    margin-left: 0px;
+    height: 400px;
+    padding: 10px;
+  }
+  
+  .contenido h2{
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .contenido h6{
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .contenido p{
+    margin-bottom: 30px;
+    font-size: 12px;
+  }
+  
+  .contenido a{
+    padding: 10px 20px;
+    margin-left: 90px;
+  }
+  
+  .fondo {
+    width: 70%;
+    margin-left:30%;
+    height: 400px;
+  }
+
+  .seccion-beneficios{
+    margin-top: 50px;
+    height: 720px;
+  }
+  
+  .seccion-beneficios h4{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 60px;
+  }
+  
+  .cards-beneficio{
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .card-beneficio{
+    height: 420px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .card-beneficio img{
+    height: 200px;
+    width: 100%;
+  }
+  
+  .card-beneficio h6{
+    font-size: 18px;
+    margin: 10px auto;
+  }
+  
+  .card-beneficio p{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+  
+  .boton-beneficio-lateral{
+    padding: 5px 15px;
+  }
+  
+  .boton-beneficio-centro{
+    padding: 5px 15px;
+  }
+  
+  .afiliados-sponsors-container{
+    display: flex;
+    flex-direction: row;
+  }  
+  
+  .afiliados-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 350px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  hr{
+    margin-top: 150px;
+    height: 280px;
+    border: 1px solid black;
+  }
+  
+  .sponsors-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 350px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  
+  .sponsors-container h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+  
+  .afiliados-container h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    margin-left: 0px;
+  }
+  
+  .afiliados-logos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+  }
+  
+  .afiliados-logos img{
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+  }
+
+  .pizarra-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .pizarra-container img{
+    height: 120px;
+    width: 100px;
+    margin-left: -70px;
+    margin-top: 0px;
+  }
+  
+  .flyers-container{
+    margin-top: 70px;
+    margin-left: 120px;
+    width: 50%;
+    height: 500px;
+  }
+  .ranking-container{
+    width: 200px;
+  }
+  
+  .ranking-container img{
+    margin-left: -35px;
+    width: 100px;
+    height: 80px;
+    margin-top: 30px;
+  }
+  
+  .torneo-container{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    background-image: url("https://i.postimg.cc/zBRqkLTx/pizarra-texturizada-tizas-borrador.jpg");
+    background-size: contain;
+    height: 480px;
+  }
+  
+  .torneo-descripcion{
+    margin-left: -205px;
+    margin-top: 120px;
+    width: 50%;
+    background-color: white;
+    padding: 15px 15px;
+    color: black;
+    height: 300px;
+
+  }
+  
+  .torneo-descripcion h2{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .torneo-descripcion p{
+    font-size: 12px;
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+  
+  .botones-torneo{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: -5px;
+  }
+  
+  .boton-torneo-torneo {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    margin-right: 5px;
+  }
+  
+  .boton-ranking-torneo{
+    background-color:white;
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 13px;
+    margin-left: 5px;
+  }
+  
+  .seccion-whatsapp{
+    margin-top: 0px;
+    width: 100%;
+    background-image: url("https://i.postimg.cc/FRxD8pbz/mujer-borrosa-tiro-completo-jugando-al-padel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+  }
+  
+  .seccion-whatsapp-contenido{
+    width: 50%;
+    height: 215px;
+    margin-left: 0%;
+    padding: 5px 5px;
+  }
+  
+  .seccion-whatsapp-contenido h2{
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .seccion-whatsapp-contenido p{
+    margin-bottom: 50px;
+    text-align: justify;
+    font-size: 12px;
+    padding: 0 5px;
+    color: white;
+  }
+  
+  .seccion-whatsapp-contenido img{
+    width: 40px;
+    height: 40px;
+    margin-left: 0px;
+  }
+  
+  .seccion-whatsapp-contenido a{
+    background-color: #29A71A;
+    padding: 10px 5px;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .seccion-container-contacto{
+    display: flex;
+    margin-top: 80px;
+  }
+  
+  .seccion-contacto{
+    background-color: #0654ae;
+    width: 40%;
+    padding-top: 40px;
+    padding-left: 0px;
+    color: white;
+    padding-right: 20px;
+  }
+  
+  .seccion-contacto h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+  }
+  
+  .seccion-contacto p{
+    margin-bottom: 20px;
+    font-size: 13px;
+    text-align: justify;
+    margin-left: 10%;
+  }
+  
+  .seccion-contacto-form{
+    width: 60%;
+    padding-top: 100px;
+    
+  }
+  
+  .form-group{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .form-group input{
+    width:40% ;
+    height: 40px;
+    border-style: none;
+    border-bottom: 2px solid #0654ae;
+    margin-bottom: 30px;
+    font-weight: 500;
+  }
+  
+  .form-group textarea{
+    border-style: none;
+    border-bottom:2px solid #0654ae ;
+    height: 100px;
+    width: 90%;
+    font-weight: 500;
+  }
+  
+  .boton-seccion-contacto{
+    text-align: center;
+    margin-top: 30px ;
+  }
+  
+  .seccion-contacto-form button{
+    margin: auto;
+    color: #0654ae;
+    background-color: white;
+    font-weight: bold;
+    border-style: none;
+    padding: 15px 30px;
+    font-size: 20px;
+  }
+  
+  .social-list-contacto{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    width: 100px;
+    margin-left: 35px;
+  }
+
+  .social-list-contacto img{
+    margin-bottom: 10px;
+    margin-right: 5px;
+  }
+
+
+  footer{
+    background-color: black;
+    margin-top: 50px;
+    color: white;
+    font-size: 14px;
+    height: 80px;
+    
+  }
+
+  .footer-seccion{
+    width: 70%;
+    display: flex;
+    justify-content:space-between ;
+  }
+}
+
+@media screen and (min-width: 280px) and (max-width: 374px){
+
+  .navbar-brand{
+    margin-right: 15%;
+  }
+
+  .logo{
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  .navbar-nav{
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .banner-principal{
+    background-image: url("https://i.postimg.cc/26YWpfTF/hombre-jugando-padel.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      text-align: left;
+      color:black;
+  }
+
+  .banner-principal h1{
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 40px;
+    width: 200px;
+  }
+
+  .banner-principal p{
+    margin-left: 12px;
+    margin-top: -25px;
+    font-size: 12px;
+  }
+
+  .social-container{
+    margin-left: -20px;
+    width: 160px;
+  }
+
+  .social-container img{
+    width: 20px;
+    height: 20px;
+    margin-top: -30px;
+  }
+
+  .botones-tyr{
+    margin-bottom: -400px;
+    margin-left: -110px;
+  }
+  
+  .botones-tyr a{
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+  
+  .sobre-nosotros-container{
+    width: 90%;
+    margin-top: 150px;
+    margin-left: 20px;
+    height: 450px;
+  }
+
+  .sobre-nosotros-container img{
+    width: 70%;
+    height: 220px;
+  }
+
+  .sobre-nosotros-leyenda{
+    padding: 20px;
+    width: 60%;
+    margin-top: 120px;
+    margin-left: -90px;
+    height: 280px;
+  }
+
+  .sobre-nosotros-leyenda h2{
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .sobre-nosotros-leyenda h6{
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  .sobre-nosotros-leyenda p{
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+
+  .sobre-nosotros-leyenda a{
+    padding: 10px 15px;
+    font-size: 13px;
+  }
+
+  .sobre-depadel{
+    margin-top: 10px;
+  }
+  
+  .contenido {
+    width: 65%;
+    margin-top: -250px;
+    margin-left: 0px;
+    height: 350px;
+    padding: 10px;
+  }
+  
+  .contenido h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .contenido h6{
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  
+  .contenido p{
+    margin-bottom: 30px;
+    font-size: 11px;
+  }
+  
+  .contenido a{
+    padding: 10px 15px;
+    margin-left: 75px;
+    font-size: 13px;
+  }
+  
+  .fondo {
+    width: 70%;
+    margin-left:30%;
+    height: 400px;
+  }
+
+  .seccion-beneficios{
+    margin-top: 50px;
+    height: 500px;
+  }
+  
+  .seccion-beneficios h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+  
+  .cards-beneficio{
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .card-beneficio{
+    height: 350px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .card-beneficio img{
+    height: 150px;
+    width: 100%;
+  }
+  
+  .card-beneficio h6{
+    font-size: 13px;
+    margin: 10px auto;
+  }
+  
+  .card-beneficio p{
+    font-size: 11px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0 1px;
+  }
+  
+  .boton-beneficio-lateral{
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+  
+  .boton-beneficio-centro{
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+  
+  .afiliados-sponsors-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    height: 300px;
+    margin-bottom: 30px;
+
+  }  
+  
+  .afiliados-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 400px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  hr{
+    margin-top: 150px;
+    height: 200px;
+    border: 1px solid black;
+  }
+  
+  .sponsors-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 350px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  
+  .sponsors-container h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+  
+  .afiliados-container h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    margin-left: 0px;
+  }
+  
+  .afiliados-logos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+  }
+  
+  .afiliados-logos img{
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+  }
+
+  .torneo-container{
+    height: 380px;
+  }
+
+  .pizarra-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+  }
+  
+  .pizarra-container img{
+    height: 100px;
+    width: 80px;
+    margin-left: -75px;
+    margin-top: -25px;
+  }
+  
+  .flyers-container{
+    margin-top: 70px;
+    margin-left: 120px;
+    width: 50%;
+    height: 00px;
+  }
+  .ranking-container{
+    width: 200px;
+  }
+  
+  .ranking-container img{
+    margin-left: -15px;
+    width: 60px;
+    height: 70px;
+    margin-top: 20px;
+  }
+  
+  .torneo-container{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    background-image: url("https://i.postimg.cc/zBRqkLTx/pizarra-texturizada-tizas-borrador.jpg");
+    background-size: contain;
+    height: 480px;
+  }
+  
+  .torneo-descripcion{
+    margin-left: -150px;
+    margin-top: 90px;
+    width: 50%;
+    background-color: white;
+    padding: 10px 15px;
+    color: black;
+    height: 200px;
+
+  }
+  
+  .torneo-descripcion h2{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
+  .torneo-descripcion p{
+    font-size: 10px;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+  
+  .botones-torneo{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: -5px;
+  }
+  
+  .boton-torneo-torneo {
+    background-color: black;
+    color: white;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 10px;
+    margin-right: 5px;
+  }
+  
+  .boton-ranking-torneo{
+    background-color:white;
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 10px;
+    margin-left: 5px;
+  }
+  
+  .seccion-whatsapp{
+    margin-top: -150px;
+    width: 100%;
+    background-image: url("https://i.postimg.cc/FRxD8pbz/mujer-borrosa-tiro-completo-jugando-al-padel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+  }
+  
+  .seccion-whatsapp-contenido{
+    width: 50%;
+    height: 180px;
+    margin-left: 0%;
+    padding: 10px 10px;
+    
+  }
+  
+  .seccion-whatsapp-contenido h2{
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .seccion-whatsapp-contenido p{
+    margin-bottom: 30px;
+    text-align: justify;
+    font-size: 10px;
+    padding: 0 5px;
+    color: white;
+  }
+  
+  .seccion-whatsapp-contenido img{
+    width: 30px;
+    height: 30px;
+    margin-left: 0px;
+  }
+  
+  .seccion-whatsapp-contenido a{
+    background-color: #29A71A;
+    padding: 10px 5px;
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 10px;
+  }
+  
+  .seccion-container-contacto{
+    display: flex;
+    margin-top: 80px;
+  }
+  
+  .seccion-contacto{
+    background-color: #0654ae;
+    width: 40%;
+    padding-top: 20px;
+    padding-left: 0px;
+    color: white;
+    padding-right: 20px;
+  }
+  
+  .seccion-contacto h2{
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+  }
+  
+  .seccion-contacto p{
+    margin-bottom: 20px;
+    font-size: 10px;
+    text-align: justify;
+    margin-left: 10%;
+  }
+  
+  .seccion-contacto-form{
+    width: 60%;
+    padding-top: 30px;
+  }
+  
+  .form-group{
+    margin: auto;
+    display: block;
+  }
+  
+  .form-group input{
+    margin: auto;
+    width:80% ;
+    height: 30px;
+    border-style: none;
+    border-bottom: 2px solid #0654ae;
+    margin-bottom: 30px;
+    font-weight: 500;
+  }
+
+  .form-group textarea{
+    border-style: none;
+    border-bottom:2px solid #0654ae ;
+    height: 100px;
+    width: 80%;
+    font-weight: 500;
+    margin: auto;
+  }
+  
+  .boton-seccion-contacto{
+    text-align: center;
+    margin-top: 30px ;
+  }
+  
+  .seccion-contacto-form button{
+    margin: auto;
+    color: #0654ae;
+    background-color: white;
+    font-weight: bold;
+    border-style: none;
+    padding: 5px 15px;
+    font-size: 20px;
+  }
+  
+  .social-list-contacto{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 50px;
+    margin-left: 25px;
+  }
+
+  .social-list-contacto img{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+
+
+  footer{
+    background-color: black;
+    margin-top: 50px;
+    color: white;
+    font-size: 14px;
+    height: 80px;
+    width: 100%;
+  }
+
+  .footer-seccion{
+    width: 90%;
+    display: flex;
+  }
+}

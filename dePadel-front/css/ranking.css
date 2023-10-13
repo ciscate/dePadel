@@ -1,0 +1,282 @@
+summary{
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    color: #0654ae;
+}
+
+.img-container-lista{
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-top: -5px;
+}
+
+.img-container-lista img{
+    width: 40px;
+    height: 40px;
+}
+
+.table{
+    text-align: center;
+}
+
+.titulocategoria{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0654ae;
+    font-size: 45px;
+}
+
+.thead{
+    background-color: #0654ae;
+    color: white;
+}
+
+
+
+.container-tabla-filtros{
+    display: flex;
+    width: 90%;
+    margin-bottom: 20px;
+    color: #0654ae;
+    font-weight: bold;
+}
+
+.container-filtro-buscar{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.container-filtro-buscar input{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    height: 30px;
+    border-style: none;
+    border: 2px solid #0654ae;
+}
+
+input:focus{
+    outline: none;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color:#0654ae;
+    border-color: #0654ae;
+}
+
+.page-link{
+    color: #0654ae;
+    font-weight: bold;
+}
+
+
+
+.perfil-container{
+    width: 100%;
+    margin-left: 0%;
+}
+
+
+@media screen and (min-width: 780px) and (max-width: 1023px){
+
+   
+    
+    .titulocategoria{
+        color: #0654ae;
+        text-align: center;
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    
+    .thead{
+        background-color: #0654ae;
+        color: white;
+    }
+    
+   
+    
+    .container-tabla-filtros{
+        display: flex;
+        width: 90%;
+        margin-bottom: 20px;
+        color: #0654ae;
+        font-weight: bold;
+    }
+    
+    .container-filtro-buscar{
+        display: flex;
+        width: 90%;
+        justify-content: center;
+        
+    }
+    
+    .container-filtro-buscar input{
+        margin-left: 10px;
+        height: 30px;
+        border-style: none;
+        border: 2px solid #0654ae;
+    }
+    
+    input:focus{
+        outline: none;
+    }
+    
+    .page-item.active .page-link {
+        z-index: 1;
+        color: #fff;
+        background-color:#0654ae;
+        border-color: #0654ae;
+    }
+    
+    .page-link{
+        color: #0654ae;
+        font-weight: bold;
+    }
+    
+
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 779px){
+
+    
+    
+    .titulocategoria{
+        text-align: center;
+        font-size: 35px;
+        margin-bottom: 20px;
+        color: #0654ae;
+    }
+    
+    .thead{
+        background-color: #0654ae;
+        color: white;
+    }
+    
+   
+    
+    .container-tabla-filtros{
+        display: flex;
+        width: 100%;
+        margin-bottom: 20px;
+        color: #0654ae;
+        font-weight: bold;
+
+    }
+    
+    .container-filtro-buscar{
+        display: flex;
+        width: 90%;
+        justify-content: center;
+
+    }
+    
+    .container-filtro-buscar input{
+        margin-left: 10px;
+        height: 30px;
+        border-style: none;
+        border: 2px solid #0654ae;
+        width: 100px;
+    }
+    
+    input:focus{
+        outline: none;
+    }
+    
+    .page-item.active .page-link {
+        z-index: 1;
+        color: #fff;
+        background-color:#0654ae;
+        border-color: #0654ae;
+    }
+    
+    .page-link{
+        color: #0654ae;
+        font-weight: bold;
+    }
+    
+
+}
+
+
+@media screen and (min-width: 280px) and (max-width: 479px){
+
+    
+    
+    .titulocategoria{
+        color: #0654ae;
+        font-size: 25px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .thead{
+        background-color: #0654ae;
+        color: white;
+    }
+    
+    
+    .container-tabla-filtros{
+        display: flex;
+        width: 100%;
+        margin-bottom: 20px;
+        color: #0654ae;
+        font-weight: bold;
+        font-size: 11px;
+        margin-left: 0px;
+        justify-content: space-between;
+    }
+    
+    .container-buscar-cantidad{
+        width: 50px;
+        margin-top: 5px;
+    }
+
+    .container-filtro-buscar{
+        display: flex;
+        width: 90%;
+        justify-content: center;
+        margin-top: 50px;
+        font-size: 11px;
+    }
+    
+    .container-filtro-buscar input{
+        margin-left: 10px;
+        height: 20px;
+        border-style: none;
+        border: 2px solid #0654ae;
+        width: 100px;
+    }
+    
+    input:focus{
+        outline: none;
+    }
+    
+    .page-item.active .page-link {
+        z-index: 1;
+        color: #fff;
+        background-color:#0654ae;
+        border-color: #0654ae;
+    }
+    
+    .page-link{
+        color: #0654ae;
+        font-weight: bold;
+    }
+    
+    .table{
+        width: 100%;
+        font-size: 12px;
+        margin-left: -10px;
+        border-spacing: 0px;
+        font-weight: bold;
+    }
+}

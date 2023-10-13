@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/iniciarSesion.css">
+    <link rel="stylesheet" href="./css/perfil.css">
+    <link rel="stylesheet" href="./css/editarPerfil.css">
+    <link rel="shortcut icon" href="./assets/logopadelblanco-removebg-preview.png" type="image/x-icon" />
+    <title>De Padel</title>
+</head>
+<body>
+    <div class="logo-inicio-sesion">
+        <a href="index.html"><img src="./assets/logopadelblanco-removebg-preview.png" alt="logo"></a>
+        <a href="index.html"><p>De Padel</p></a>
+    </div>
+    <form class="container-login"  enctype="multipart/form-data">
+        <div>
+            <h4>Editar Perfil</h4>
+        </div>
+        <div class="container-inputs">
+            <div>
+                <input class="input-email form-control" type="text" placeholder="Nombre" id="nombreJugador" required>
+                <input class="input-email form-control" type="text" placeholder="Apellido" id="apellidoJugador" required>
+                <input class="input-email form-control" type="text" placeholder="N° Celular" id="celularJugador" required>
+                <select class="input-email form-control" name="posicion" id="posicionJugador" required>
+                    <option value="" selected>Posicion</option>
+                    <option value="Drive">Drive</option>
+                    <option value="Reves">Reves</option>
+                </select>
+                <select class="input-email form-control" name="genero" id="generoJugador" required>
+                    <option value="" selected>Genero</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                </select>
+                
+                <div class="submit-container">
+                    <button   onclick="validateForm();   preventDef(event) ">Guardar cambios</button>
+                </div>
+            </div>
+        </div>
+    </form>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./js/editarPerfil.js"></script>
+</body>
+</html>

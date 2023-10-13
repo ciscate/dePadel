@@ -1,0 +1,457 @@
+.beneficios-terjetas-beneficios{
+    width: 30%;
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: justify;
+    
+}
+
+.beneficios-terjetas-beneficios p{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.beneficios-terjetas-beneficios h6{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.beneficios-terjetas-beneficios img{
+    width: 100%;
+    height: 200px
+}
+
+.beneficios-container{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+    width: 90%;
+    
+}
+
+.container-redessociales{
+    justify-content: space-between;
+    text-align: center;
+}
+
+.container-redessociales img{
+    width: 40px;
+    height: 40px;
+}
+
+.container-titulo-subtitulo{
+    text-align: center;
+    font-weight: bold;
+}
+
+.container-general-titulo-subtitulo{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.container-general-boton-suscripcion{
+    
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.container-boton-suscripcion{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-descripcion{
+    width: 40%;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.container-descripcion h2{
+    margin-top: 20px;
+}
+
+.container-descripcion p{
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.container-imagenes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-imagenes img{
+    width: 100px;
+    height: 100px;
+}
+
+.container-planes{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+}
+
+.container-planes-cards{
+    width: 30%;
+    margin-top: 5px;
+}
+
+.container-planes-cards h4{
+    text-align: center;
+}
+
+.container-planes-cards p{
+    margin-top:30px ;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.container-plan-button{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container-plan-button button{
+    color: #0654ae;
+    font-weight: bold;
+    border-style: none;
+    border: 2px solid #0654ae;
+    padding: 5px;
+}
+
+
+.container-precio p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+hr{
+    height: 0;
+    width: 80%;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+@media screen and (min-width: 780px) and (max-width: 1023px){
+
+    .container-precio p{
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 779px){
+
+    .beneficios-terjetas-beneficios{
+        width: 30%;
+        text-align: justify;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: justify;
+        
+    }
+    
+    .beneficios-terjetas-beneficios p{
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 13px;
+    }
+    
+    .beneficios-terjetas-beneficios h6{
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .beneficios-terjetas-beneficios img{
+        width: 100%;
+        height: 200px
+    }
+    
+    .beneficios-container{
+        display: flex;
+        width: 80%;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: space-between;
+        width: 90%;
+        
+    }
+    
+    .container-redessociales{
+        justify-content: space-between;
+        text-align: center;
+    }
+    
+    .container-redessociales img{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .container-titulo-subtitulo{
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .container-general-titulo-subtitulo{
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+    
+    .container-general-boton-suscripcion{
+        
+        width: 95%;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .container-boton-suscripcion{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .container-descripcion{
+        width: 30%;
+        text-align: center;
+        margin-right: 20px;
+        font-size: 14px;
+    }
+    
+    .container-descripcion h2{
+        margin-top: 20px;
+    }
+    
+    .container-descripcion p{
+        text-align: justify;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    
+    .container-imagenes{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .container-imagenes img{
+        width: 80px;
+        height: 80px;
+    }
+    
+    .container-planes{
+        width: 70%;
+        display: flex;
+        justify-content: space-evenly;
+        height: 300px;
+    }
+    
+    .container-planes-cards{
+        width: 30%;
+        margin-top: 5px;
+    }
+    
+    .container-planes-cards h4{
+        text-align: center;
+    }
+    
+    .container-planes-cards p{
+        margin-top:30px ;
+        margin-bottom: 10px;
+        text-align: justify;
+        font-size: 16px;
+    }
+    
+    .container-plan-button{
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .container-plan-button button{
+        color: #0654ae;
+        font-weight: bold;
+        border-style: none;
+        border: 2px solid #0654ae;
+        padding: 5px;
+    }
+    
+    
+    .container-precio p{
+        text-align: center;
+        font-size: 21px;
+        font-weight: bold;
+    }
+    
+    hr{
+        height: 0;
+        width: 80%;
+        margin-top: 100px;
+        margin-bottom: 150px;
+    }
+}
+
+@media screen and (min-width: 280px) and (max-width: 479px){
+
+    .beneficios-terjetas-beneficios{
+        width: 45%;
+        text-align: justify;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: justify;
+        
+    }
+    
+    .beneficios-terjetas-beneficios p{
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 11px;
+    }
+    
+    .beneficios-terjetas-beneficios h6{
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .beneficios-terjetas-beneficios img{
+        width: 100%;
+        height: 200px
+    }
+    
+    .beneficios-container{
+        display: flex;
+        width: 80%;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: space-between;
+        width: 90%;
+        
+    }
+    
+    .container-redessociales{
+        justify-content: space-between;
+        text-align: center;
+    }
+    
+    .container-redessociales img{
+        width: 40px;
+        height: 40px;
+        margin-bottom: -30px;
+    }
+    
+    .container-titulo-subtitulo{
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .container-general-titulo-subtitulo{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .container-general-boton-suscripcion{
+        width: 95%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    
+    .container-boton-suscripcion{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .container-descripcion{
+        margin-top: -80px;
+        width: 95%;
+        text-align: center;
+        margin-right: 0px;
+        font-size: 14px;
+        margin-left: 5px;
+        margin-bottom: 50px;
+    }
+    
+    .container-descripcion h2{
+        margin-top: 20px;
+    }
+    
+    .container-descripcion p{
+        text-align: justify;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    
+    .container-imagenes{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .container-imagenes img{
+        width: 80px;
+        height: 80px;
+    }
+    
+    .container-planes{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        height: 300px;
+    }
+    
+    .container-planes-cards{
+        width: 40%;
+        margin-top: 5px;
+    }
+    
+    .container-planes-cards h4{
+        text-align: center;
+    }
+    
+    .container-planes-cards p{
+        margin-top:30px ;
+        margin-bottom: 10px;
+        text-align: justify;
+        font-size: 16px;
+    }
+    
+    .container-plan-button{
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .container-plan-button button{
+        color: #0654ae;
+        font-weight: bold;
+        border-style: none;
+        border: 2px solid #0654ae;
+        padding: 5px;
+    }
+    
+    
+    .container-precio p{
+        text-align: center;
+        font-size: 21px;
+        font-weight: bold;
+    }
+    
+    hr{
+        height: 0;
+        width: 80%;
+        margin-top: 100px;
+        margin-bottom: 150px;
+    }
+}
