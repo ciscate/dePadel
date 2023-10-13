@@ -1,0 +1,6 @@
+com\depadel\depadelback\ServletInitializer.class
+com\depadel\depadelback\DepadelBackApplication.class
+com\depadel\depadelback\repository\JugadorRepository.class
+com\depadel\depadelback\model\Jugador.class
+com\depadel\depadelback\service\JugadorService.class
+com\depadel\depadelback\controller\JugadorController.class
